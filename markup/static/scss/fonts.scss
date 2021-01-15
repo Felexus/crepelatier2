@@ -1,0 +1,11 @@
+// Fonts by Maxim Sinukov
+@include font-face("Comfortaa", "../fonts/comf/comfortaa-light", 300, normal);
+@include font-face("Comfortaa", "../fonts/comf/comfortaa", 400, normal);
+@include font-face("Comfortaa", "../fonts/comf/comfortaa-medium", 500, normal);
+@include font-face("Comfortaa", "../fonts/comf/comfortaa-bold", 700, normal);
+
+
+@include font-face("Playfair Display", "../fonts/prai/playfairdisplay-regular", 400, normal);
+@include font-face("Playfair Display", "../fonts/prai/playfairdisplay-italic", 400, italic);
+@include font-face("Playfair Display", "../fonts/prai/playfairdisplay-bold", 700, normal);
+@include font-face("Playfair Display", "../fonts/prai/playfairdisplay-bold", 400, italic);
