@@ -568,7 +568,7 @@
     }
     &__container {
         width: 100%;
-        box-shadow: 0 0 158px rgba(0, 0, 0, 0.09);
+        box-shadow: 0 0 158px rgba(0, 0, 0, 0.09), 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0.5px 2px rgba(0, 0, 0, 0.2);
         border-radius: 100px;
         background-color: #ffffff;
         padding: 100px 110px 110px 110px;
@@ -993,7 +993,7 @@
         margin-bottom: 100px;
     }
     &__container {
-        box-shadow: 0 0 98px rgba(0, 0, 0, 0.03);
+        box-shadow: 0 0 98px rgba(0, 0, 0, 0.03), 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0.5px 2px rgba(0, 0, 0, 0.2);
         border-radius: 100px;
         background-color: #ffffff;
         padding: 60px 97px;
@@ -1572,7 +1572,7 @@
         background-color: #fff;
         border-radius: 5px;
         background-color: #ffffff;
-        box-shadow: 0 0 54px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 0 54px rgba(0, 0, 0, 0.07), 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0.5px 2px rgba(0, 0, 0, 0.2);
         @media screen and (max-width: 1023px) {
             width: calc(50% - 20px);
         }
@@ -2196,7 +2196,6 @@ button {
     opacity: 1 !important;
 }
 .prod-html {
-    margin: 0 92px;
     padding: 30px;
     background-color: #fff;
     border-radius: 8px;
@@ -2454,8 +2453,66 @@ button {
     .clients__button {
         top: 50% !important;
     }
+    .clients {
+        padding-bottom: 80px;
+    }
 }
 
 .storony__img {
     top: 40%;
+}
+
+@media screen and (max-width: 425px) {
+    .clients-1 .swiper-slide img {
+        max-width: 65%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .clients-1 .clients__button {
+        top: 135%;
+        opacity: 0.4 !important;
+    }
+}
+
+
+@media screen and (max-width: 1920px) {
+    .ttabs {
+        margin-bottom: 50px;
+    }
+}
+
+.clients .swiper-slide .ctg__item {
+    width: 98%;
+    margin-top: 1px;
+    margin-right: 0px;
+}
+
+.slider-3 {
+    height: 575px;
+}
+
+.ctg__item {
+    margin-right: 20px;
+    width: calc(25% - 20px);
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    padding: 25px 20px 40px 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 0.5px 2px rgba(0, 0, 0, 0.2);
+}
+
+.clients-1 {
+    padding-bottom: 80px;
+}
+
+.clients__button {
+    opacity: 0.4;
+}
+
+@media screen and (max-width: 768px) {
+    .clients__button {
+        top: 60px !important;
+    }
 }
