@@ -10236,6 +10236,24 @@ button {
   }
 }
 
+@media screen and (max-width: 375px) {
+  .ctg__item-img {
+    height: 250px;
+  }
+}
+
+.ctg__item-title {
+  margin-top: 15px;
+}
+
+.clients {
+  padding-bottom: 120px;
+}
+
+.map {
+  margin-bottom: 60px;
+}
+
 .pageNavFixed {
   position: fixed;
   z-index: 32131312312;
