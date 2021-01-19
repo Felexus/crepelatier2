@@ -10254,6 +10254,14 @@ button {
   margin-bottom: 60px;
 }
 
+.tovar__top-slider {
+  height: 620px;
+}
+
+.tovar__top-slider .swiper-slide {
+  height: 620px;
+}
+
 .pageNavFixed {
   position: fixed;
   z-index: 32131312312;
